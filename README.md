@@ -53,7 +53,7 @@ npm run start
 ```
 
 ## หลักฐานผลลัพธ์
-Markdown
+
 ![ภาพหน้าจอผลลัพธ์](https://raw.githubusercontent.com/jirayuwongtomrmutl/images/refs/heads/main/Screenshot%202026-06-25%20203827.png)
 
 Hello จิรายุ วงศ์ต่อม (68543210022-8) | OS: linux | Node: v24.18.0
