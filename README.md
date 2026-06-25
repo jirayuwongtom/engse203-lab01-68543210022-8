@@ -46,8 +46,9 @@ npm run start
 ## โครงสร้างไฟล์
 
 ```text
-.
-├── src/hello.js
+engse203-lab01/
+├── src/
+│   └── hello.js
 ├── package.json
 └── README.md
 ```
