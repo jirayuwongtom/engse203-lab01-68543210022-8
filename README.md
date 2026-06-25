@@ -4,7 +4,7 @@
 
 - ชื่อ-นามสกุล: จิรายุ วงศ์ต่อม
 - รหัสนักศึกษา: 68543210022-8
-- ระบบปฏิบัติการที่ใช้: macOS / Windows
+- ระบบปฏิบัติการที่ใช้: Windows
 
 ## วัตถุประสงค์ของงาน
 
@@ -18,29 +18,33 @@
 
 - Git และ GitHub
 - WSL2
-- Visual Studio Code (VS Code)
+- Visual Studio Code
+- Node.js
+- npm
+
 
 ## วิธีติดตั้งและรัน
 
 ```bash
-# สร้างพื้นที่ทำงานของรายวิชา
+# สร้างพื้นที่ทำงานและสร้างโฟลเดอร์โปรเจกต์
 mkdir -p ~/workspace/engse203
 cd ~/workspace/engse203
 mkdir engse203-lab01
+
+# สร้างโฟลเดอร์สำหรับซอร์สโค้ด
 cd engse203-lab01
 npm init -y
 mkdir src
-code .
 
-# เข้าสู่โฟลเดอร์ของโปรเจกต์
-cd engse203-lab01
+# เปิดโปรเจกต์ใน VS Code
+code .
 
 # สร้างไฟล์ใน src/hello.js
 # เขียนและรันโปรแกรม JavaScript ตามตัวอย่าง
 # เปิดไฟล์ package.json และแก้ส่วน scripts ให้มีคำสั่ง start
-
 # จากนั้นรันโปรแกรม
 npm run start
+
 ```
 
 ## โครงสร้างไฟล์
@@ -56,8 +60,9 @@ engse203-lab01/
 ## หลักฐานผลลัพธ์
 
 ![ภาพหน้าจอผลลัพธ์](https://raw.githubusercontent.com/jirayuwongtomrmutl/images/refs/heads/main/Screenshot%202026-06-25%20203827.png)
-
+```bash
 Hello จิรายุ วงศ์ต่อม (68543210022-8) | OS: linux | Node: v24.18.0
+```
 
 ## ปัญหาที่พบและวิธีแก้ไข
 
@@ -67,8 +72,12 @@ Hello จิรายุ วงศ์ต่อม (68543210022-8) | OS: linux | 
 ## References & AI Assistance
 
 - Source / Documentation:   
-https://github.com/se-rmutl/engse203-lab/blob/main/docs/part-1-wsl2-ubuntu-24.04-windows-11.md
-https://github.com/se-rmutl/engse203-lab/blob/main/docs/part-2-developer-tools-git-github-vscode.md
-- AI tool used: Gemini
-- Used for: ตรวจสอบคำสั่งที่ใช้ในการติดตั้ง WSL2 และแก้ปัญหาที่ไม่สามารถติดตั้ง WSL2 ได้ , หาวิธีนำรูปภาพเข้าไปใส่ใน README.md
-- My adaptation: นำ README template เพิ่มข้อมูลส่วนตัวลงไป
+    - https://github.com/se-rmutl/engse203-lab/blob/main/docs/part-1-wsl2-ubuntu-24.04-windows-11.md
+    - https://github.com/se-rmutl/engse203-lab/blob/main/docs/part-2-developer-tools-git-github-vscode.md
+- AI tool used: 
+    - Gemini
+- Used for: 
+    - ตรวจสอบคำสั่งที่ใช้ในการติดตั้ง WSL2 และแก้ปัญหาที่ไม่สามารถติดตั้ง WSL2 ได้
+    - หาวิธีนำรูปภาพเข้าไปใส่ใน README.md
+- My adaptation: 
+    - ศึกษาเนื้อหาคำแนะนำ ทำตามขั้นตอนในเครื่องตนเอง และนำมาปรับแก้เพื่อเขียนอธิบายให้ถูกต้อง
