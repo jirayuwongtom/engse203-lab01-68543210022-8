@@ -65,8 +65,9 @@ Hello จิรายุ วงศ์ต่อม (68543210022-8) | OS: linux | 
 
 ## References & AI Assistance
 
-- Source / Documentation:   https://github.com/se-rmutl/engse203-lab/blob/main/docs/part-1-wsl2-ubuntu-24.04-windows-11.md
-                            https://github.com/se-rmutl/engse203-lab/blob/main/docs/part-2-developer-tools-git-github-vscode.md
+- Source / Documentation:   
+https://github.com/se-rmutl/engse203-lab/blob/main/docs/part-1-wsl2-ubuntu-24.04-windows-11.md
+https://github.com/se-rmutl/engse203-lab/blob/main/docs/part-2-developer-tools-git-github-vscode.md
 - AI tool used: Gemini
 - Used for: ตรวจสอบคำสั่งที่ใช้ในการติดตั้ง WSL2 และแก้ปัญหาที่ไม่สามารถติดตั้ง WSL2 ได้ , หาวิธีนำรูปภาพเข้าไปใส่ใน README.md
 - My adaptation: นำ README template เพิ่มข้อมูลส่วนตัวลงไป
